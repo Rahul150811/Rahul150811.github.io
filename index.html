@@ -8,20 +8,7 @@
 
     <style>
 
-        img{ 
-        width: 100%; 
-        height: 100%;
-        }
-        
-        p{
-        color:red;
-        }
-        
-        #intro{
-        color:red;
-        font-size: 30px;
-        }
-        
+        img{ width: 100%; height: 100%;}
         .image{
             width: 100%;
             height: 850px;
@@ -61,12 +48,15 @@
             text-shadow: 0px 08px 10px rgb(181, 15, 59);
             letter-spacing: 0.1em
         }
-        
 
-
+        #hello{
+            color: white;
+            text-align: center;
+            
+        }
 
         body{
-            background-color: #131212;
+            background-color: black;
         }
 
         h2{
@@ -93,68 +83,95 @@
         .nav_div a:hover {
             background-color: rgb(11, 242, 88);
         }
-        
+
         .box{
-            position: absolute;
-            top: 700px;
-            left: 250px;
-            border: solid 2px rgb(23, 244, 89);
-            margin: 20%;
+            border: solid 02px rgb(23, 244, 89); 
+            margin-top: 50px;
+            width: 300px;
+            margin-left: 500px;
         }
-        
-      
-        
-        
-   
+
+        .box1{border: dotted 5px rgb(250, 77, 9); margin: 20%;
+            bottom: auto;
+            margin-bottom: auto;
+        }
+
+
+        .social{
+            background-color: black;
+            width: 100%;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .social a {
+            display:inline-block;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding: 10px 30px;
+            text-decoration: none
+        }
+        .social a:hover {
+            color: green;
+        }
+
+        #footer1{
+            color: orange;
+            text-align: center;
+        }
+
+        #footer2{
+            color:gold;
+            text-align: center;
+        }
+
+
 
     </style>
-    
-</head>
-<body>
 
-    <div class="image"><img src="image.png"</div>
+    <div class="image"><img src="image.png"></div>
 
     <div class="message">Fnu Rahul</div> 
     <dd class="a1">I am a Cybersecurity Student</dd>
 
-    
+
 
     <nav class="nav_div">
         <a href="index.html">Welcome</a>
         <a href="Day2/day2.html">Day2</a>
         <a href="Day3/day3.html">Day3</a>
         <a href="Project/index.html">Sample Project</a>
-        <a href="samplewebsitecode.html">Follow Me</a>
+        <a href="#social">Follow Me</a>
     </nav>
     
-    <div class="box"><h2 align="center">Track my Progress</h2></div>
+</head>
+<body>
+
     
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
-    <figure>
+    <figure class="box">
         <figcaption align="center">
-            <p>Just Checking My Design</p>
+            <h2>Track my Progress</h2>
         </figcaption>
-        
-   <p id="intro">I am a student here </p>
     </figure>
-   
-        
-  
     
+    
+    
+    <p id="hello"> I am a full time student studying at John Jay College of Criminal Justice. I am also enchancing my skills in cloud Computing such as AWS</p>
 
-    
-       
 
-    
+
+<footer>
+    <div class="box1">
+    <nav class="social">
+        <a href="https://www.linkedin.com/in/fnu-rahul-a48427199/">Linkedin</a>
+        <a href="mailto: abc@example.com"><img scr="email.png">Email</img></a>
+        <a href="https://github.com/Rahul150811">Github</a>
+        <a href="Resume">Resume</a>
+    </nav>
+    <h3 id="footer1">Author - Rahul<br></h3>
+    <h4 id="footer2">All Rights Reserved @2023</h4>
+</div></footer>
 
 </body>
 
