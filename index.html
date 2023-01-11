@@ -31,19 +31,35 @@
             font-family: 'Libre Baskerville', serif;
             text-shadow: 0px 08px 10px rgb(181, 15, 59);
         }
+        
+        .resume{
+            display: block;
+            block-size: 100px;
+            padding: 0px 2px;
+            color: orangered;
+            border-color: blue;
+            background-color: black;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            
+        }
 
         .a1{
             position: absolute;
-            top: 42%;
-            left: 0%;
-            width: 40%;
+            top: 22%;
+            left: 10%;
+            width: 50%;
             color: rgb(10, 238, 33);
             text-align: center;
-            padding: 10px;
+            padding: 40px;
             font-size: 20px;
             line-height: 34px; 
             font-weight: 100; 
-            margin: 0 5px 24px;
+            margin: center;
             font-family: 'Libre Baskerville', serif;
             text-shadow: 0px 08px 10px rgb(181, 15, 59);
             letter-spacing: 0.1em
@@ -143,27 +159,28 @@
         }
 
         .education{
-            margin-top: 80px;
-            height: 980px;
+            margin-top: 0px;
+            height: 780px;
             border: dotted rebeccapurple;
-        }
-
-        #ed{
-            color:rgb(10, 238, 33);
-            height: 80px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            line-height: 38px;
-            font-size: 28px;
-            width: 100%;
-            height: auto;
         }
 
         .video {
             position: relative;
-            right: 0;
-            bottom: 0;
+            background-position: center;
             min-width: 100%;
             min-height: 100%;
+        }
+
+        .ed{
+            position: absolute;
+            top: 0%;
+            left: 15%;
+            width: 70%;
+            color:rgb(10, 238, 33);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 38px;
+            text-align: center;
+            text-shadow: 1px 1px 3px red;
         }
 
 
@@ -171,8 +188,9 @@
 
     <div class="image"><img src="wal.png"></div>
 
-    <div class="message">Fnu Rahul</div> 
+    <div class="message">Fnu Rahul 
     <dd class="a1">I am a Cybersecurity Student</dd>
+    <a href="#" class="resume">Download Resume</a></div>
 
 
 
@@ -212,8 +230,9 @@
     <section class="education">
         <div class="video">
             <video autoplay loop muted width="100%">
-                <source src="vid.mp4" type="video/mp4" /></video></div>
-                <p id="ed"> Hi I will add my education here</p>
+                <source src="vid.mp4" type="video/mp4" /></video>
+                <p class="ed">Educational Journey</p></div>
+
 
     </section>
 
