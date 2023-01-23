@@ -184,17 +184,27 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(15, 14, 14); /* semi-transparent black */
     color: rgb(10, 182, 195);
     padding: 20px;
     text-align: center;
   }
+  .features1 .color1{background-color: black;}
+  .features1 .color2{background-color: grey;}
+  .features1 .color3{background-color: white;}
+  .features1 .color4{background-color: rgb(6, 231, 152);}
+  .features1 .color5{background-color: white;}
+  .features1 .color6{background-color: rgb(6, 231, 152);}
+  .features1 .color7{background-color: black;}
+  .features1 .color8{background-color: grey;}
+
+
   
+
   .features1_item {
     margin-top: 60px;
     padding: 45px 25px;
     text-align: center;
-    background: black;
+    
     cursor: pointer;
     margin-bottom: 30px;
     -webkit-transition: all 0.4s ease 0s;
