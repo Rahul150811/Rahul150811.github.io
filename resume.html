@@ -13,7 +13,31 @@
         <link href="design.css" rel="stylesheet">
     </head>
     
-    <body>
+    <body class="resumepage">
+
+      <!------------------- Navigation Bar ---------------------------->
+    <header>
+      <nav id="navbar_top" class="navbar">
+          <div class="navbar">
+              <a href="index.html">Home</a>
+              <div class="line"></div>
+              <a href="#about">About</a>
+              <div class="line"></div>
+              <a href="index.html#skills">Skills</a>
+              <div class="line"></div>
+              <a href="project.html">Projects</a>
+              <div class="line"></div>
+              <a href="resume.html">Accomplishments</a>
+              <div class="line"></div>
+              <div class="contact"></div>
+              <a href="index.html#contact">Contact</a>
+              <div class="menu-btn" onclick="toggleMenu()">
+                  <i class="fa fa-bars"></i>
+              </div>
+          </div>
+      </nav>
+  </header>
+
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -33,7 +57,7 @@
                   <h5 class="item-title">Associate Degree</h5>
                   <span class="item-details">Computer Science and Information Security</span>
                   <span class="item-details">Queensborough Community College / 2019 - 2021</span>
-                  <p class="item-description"><b>Courses: Object-Oriented Programming, Linux, Networking fundamentals, Computer Architecture.</b></p>
+                  <p class="item-description"><b>Courses: </b>Object-Oriented Programming, Linux, Networking fundamentals, Computer Architecture.</b></p>
                 </div>
                 <div class="resume-item"><span class="item-arrow"></span>
                   <h5 class="item-title">Bachelor Degree</h5>
@@ -43,7 +67,9 @@
                 </div>
                 <div class="resume-item"><span class="item-arrow"></span>
                   <h5 class="item-title">Cybersecurity Certification</h5><span class="item-details">Codepath.org / Feb 2021 - May 2021</span>
-                  <p class="item-description"></p>
+                  <p class="item-description"><b>Courses: </b>Learned about common vulnerabilities and attacks with handson practice in exploitation techniques and strategies for
+                    protecting and hardening applications.
+                    </p>
                 </div>
               </div>
             </div>
@@ -89,6 +115,8 @@
             </div>
           </div>
         </div>
+    
+      <script src="navigation.js"></script>
       
     </body>
 </html>
