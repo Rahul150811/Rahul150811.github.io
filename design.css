@@ -261,10 +261,7 @@
   border-radius: 6px;
   margin-bottom: 48px;
 }
-.contact-us .link-item img {
-  vertical-align: middle;
-  margin-left:8px;
-}
+
 .contact-us .link-item span {
   color: #0eed55;
   font-size: 18px;
@@ -306,7 +303,6 @@
   }
   .contact-us .link-item span {font-size: 14px;}
   .contact-us .link-item {width: 200px; height: 50px; line-height: 40px; margin-top: 50px; margin-bottom: -100px;}
-  .contact-us .img-item {display: inline-block; text-decoration: none; height: 80px; width: -100px; line-height: 0px; margin-top: 60px; margin-right: -4px; margin-bottom: 18px;}
 }
 /*---------------------- Contact Section End -------------------*/
 /*----------------------- Slideshow -----------------------------*/
