@@ -1,0 +1,78 @@
+/*-----------------------Navigation Button Style -------------------------------------------*/
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: monospace;
+}
+.navbar a {
+    color: rgb(16, 233, 30);
+    font-size: 20px;
+    font-weight: 700px;
+    text-decoration: none;
+    margin-left:25px;
+    padding: 10px;
+}
+  
+.navbar a:hover {
+    background-color: #f0f8f0;
+    font-weight: 500px;
+    color: black;
+    text-decoration: none;
+}
+  
+.navbar .menu-btn {
+    display: none;
+}
+  
+.line {
+    width: 2px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: super;
+    margin: 0 34px;
+    background: #f0f0f0;
+}
+@media (max-width: 600px) {
+    .navbar a {
+        display: block;
+        margin: 4px 0;
+        font-size: 15px;
+        padding: 6px;
+        text-decoration: none;
+    }
+    .navbar .menu-btn {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .navbar .links {
+        text-decoration: none;
+        display: none;
+    }
+    .line {
+        width: 2px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: super;
+        margin: 0 34px;
+        background: #f0f0f0;
+    }
+}
+
+/*---------------------- Navigation Button End ----------------*/
+
+body{
+    margin-top:20px;
+    background: #272826;
+}
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+}
