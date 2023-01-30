@@ -128,7 +128,7 @@
     text-align:center;
     line-height:100px;
     height:100px;
-    margin-top:-2vh;
+    margin-top: 50px;
     text-transform:uppercase;
     letter-spacing:4px;
 }
@@ -142,6 +142,7 @@
   background-color: crimson;
   border-color: green;
   border-radius: 10px;
+  
 }
 
 /*---------------------- Home Section End ----------------*/
@@ -165,6 +166,7 @@
   }
  
   .skill-heading {
+    margin-top: 200px;
     padding-top: 10px;
     padding-bottom: 0px;
     background-color: #ed0b0b;
@@ -189,16 +191,6 @@
     padding: 20px;
     text-align: center;
   }
-  .features1 .color1{background-color: black;}
-  .features1 .color2{background-color: grey;}
-  .features1 .color3{background-color: white;}
-  .features1 .color4{background-color: rgb(6, 231, 152);}
-  .features1 .color5{background-color: white;}
-  .features1 .color6{background-color: rgb(6, 231, 152);}
-  .features1 .color7{background-color: black;}
-  .features1 .color8{background-color: grey;}
-
-
   
 
   .features1_item {
@@ -226,7 +218,7 @@
      }
   
     .features1_item:hover {
-      box-shadow: 5px 0px 15px 20px orange;
+      box-shadow: 0px 0px 15px 10px rgb(8, 235, 65);
       background: black;
     }
   
