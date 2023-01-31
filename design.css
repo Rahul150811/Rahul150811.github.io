@@ -146,8 +146,8 @@
 }
 
 /*---------------------- Home Section End ----------------*/
-/*---------------------- Skill Section --------------------*/
 
+/*---------------------- Skill Section --------------------*/
 .display-2 {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
@@ -187,7 +187,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: rgb(10, 182, 195);
     padding: 20px;
     text-align: center;
   }
@@ -197,7 +196,9 @@
     margin-top: 60px;
     padding: 45px 25px;
     text-align: center;
-    
+    border:linear-gradient(to right, #ccc 50%, maroon 50%) bottom,
+    linear-gradient(to right, maroon 50%, #ccc 50%) top;
+      
     cursor: pointer;
     margin-bottom: 30px;
     -webkit-transition: all 0.4s ease 0s;
@@ -214,7 +215,7 @@
     .features1_item li {
       margin-bottom: 0px;
       text-align: left;
-      color: rgb(9, 228, 244);
+      color: white;
      }
   
     .features1_item:hover {
@@ -340,28 +341,9 @@
   text-decoration: none;
   color: red;
 }
-.contact-us .line {
-  width: 2px;
-  margin-top: 50px;
-  height: 20px;
-  background: #f0f0f0;
-}
-.contact-us .img-item {
-  display: inline-block;
-  text-decoration: none;
-  height: 80px;
-  width: 24px;
-  line-height: 30px;
-  margin-right: 24px;
-  border-radius: 6px;
-  
-}
 
 @media (max-width: 576px){
   .content-banner h1{font-size: 26px;}
-  .contact-us .line{
-    margin-bottom: 150px;
-  }
   .contact-us .link-item span {font-size: 14px;}
   .contact-us .link-item {width: 200px; height: 50px; line-height: 40px; margin-top: 50px; margin-bottom: -100px;}
 }
