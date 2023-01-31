@@ -231,6 +231,9 @@
 /*--------------------- Skill Section End ----------------*/
 
 /*--------------------- About Section --------------------*/
+.aboutme{
+  border-left: 1px solid rgb(0, 255, 76);
+}
 .a-body{
   min-width: 100%;
   min-height: 100%;
