@@ -1,0 +1,72 @@
+body{
+  background:#000;
+  background-color: #0a0945;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  border-color:#33CCFF;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  height:100%;
+  width:100%;
+  color: #33CCFF;
+  }
+
+
+#GlobalWrapper {
+opacity: 0.55;  
+margin: auto;
+width: 70%;
+text-align: center;
+}
+
+#GlobalWrapper a:hover {
+background: #33CCFF;
+box-shadow:  0 0 1px 1px #33CCFF;
+color: #000;
+border-color: inherit;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+a
+{
+  color: inherit;
+  outline:0;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.modal a {
+  margin: 0 auto;
+}
+
+.modal {position:relative; padding: 10px; display: inline-block;}
+.modal:before, .modal:after, .modal>:first-child:before, .modal>:first-child:after {
+    position:absolute;
+    width:15px; height: 15px;
+    border-color:inherit; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+    content: ' ';
+	opacity: 0.55;
+}
+.modal:before {top:0;left:0;border-width: 3px 0 0 3px}
+.modal:after {top:0;right:0;border-width: 3px 3px 0 0}
+.modal>:first-child:before {bottom:0;right:0;border-width: 0 3px 3px 0}
+.modal>:first-child:after {bottom:0;left:0;border-width: 0 0 3px 3px}
