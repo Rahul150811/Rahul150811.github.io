@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&family=Roboto+Mono:wght@100;400;600&display=swap");
 
 .homecolor{
     background-color: black;
@@ -683,3 +686,122 @@
   color: #fff;
 }
 /*----------------- In Progress section end -------------*/
+.platform1 {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #1c2538;
+}
+.platform1 .platformcard {
+  position: relative;
+  width: 300px;
+  height: 418px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  transform-style: preserve-3d;
+  transform: perspective(400px);
+  background-color: #f5f6f7;
+}
+.platformcard.hackbox {
+  background-color: #141d2b;
+}
+.platformcard.hackbox .hackbox-heading {
+  color: #9fef00;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.platformcard.hackbox .hackbox-heading:hover {
+  color: #ffe700;
+}
+.hackbox .content p {
+  color: #a4b1cd;
+}
+.hackbox .content p:hover {
+  color: #ebeff8;
+}
+
+.platformcard.tryhackme {
+  background-color: #161e2d;
+}
+.platformcard.tryhackme .tryhackme-heading {
+  color: #a6170e;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.platformcard.tryhackme .tryhackme-heading:hover {
+  color: #fff;
+}
+
+.tryhackme .content p {
+  color: #8e929c;
+  font-family: "Ubuntu", sans-serif;
+}
+.tryhackme .content p:hover {
+  color: #fff;
+}
+
+.platformcard.portswigger {
+  background-color: #161e2d;
+}
+.platformcard.portswigger .portswigger-heading {
+  color: #e86507;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.platformcard.portswigger .portswigger-heading:hover {
+  color: #fff;
+}
+
+.portswigger .content p {
+  color: #8e929c;
+  font-family: "Ubuntu", sans-serif;
+}
+.portswigger .content p:hover {
+  color: #fff;
+}
+.platform1 h2 {
+  color: #0a0a23;
+  font-size: 2.5rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  font-family: "Roboto-mono", sans-serif;
+}
+.platform1 p {
+  color: #0a0a23;
+  margin: 20px 20px;
+  font-family: "Roboto-mono", sans-serif;
+  padding: 10px 20px;
+}
+
+
+.platform1 h2:hover {
+  transform: translate3d(0, -10px, 20px);
+  color: #616171;
+}
+
+.platform1 a {
+  text-decoration: none;
+}
+
+
+.name-container {
+  background-color: #1c2538;
+  margin-top: 200px;
+  color: rgb(199, 199, 199);
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+/*------------Platform End -------------------/*
