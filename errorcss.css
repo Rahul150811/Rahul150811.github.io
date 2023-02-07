@@ -124,3 +124,35 @@ a::after {
 .errorcode {
   color: white;
 }
+
+#nav{
+  font-family: arial, sans-serif;
+	text-align: center;
+  background-size: cover;
+	color: black;
+}
+#nav_wrapper ul li {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+  margin-right: 20px;
+
+}
+#nav_wrapper a{
+	text-decoration: none;
+  color: rgb(16, 233, 30);
+  font-size: 20px;
+  font-weight: 700px;
+  text-decoration: none;
+}
+#nav_wrapper li:hover{
+  text-decoration: underline;
+}
+
+#nav_wrapper a:hover {
+    background-color: #f0f8f0;
+    font-weight: 500px;
+    color: black;
+    text-decoration: none;
+}
