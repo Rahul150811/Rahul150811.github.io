@@ -1,5 +1,5 @@
 body{
-  background-color: #11581E;
+  background-color: #0c0e0c;
   background-attachment:fixed;
   background-repeat:no-repeat;
   border-color:#33CCFF;
@@ -7,7 +7,7 @@ body{
   font-size: 25px;
   height:100%;
   width:100%;
-  color: #2714d3;
+  color: #25e90b;
   }
 
 
@@ -19,12 +19,7 @@ width: 20%;
 text-align: center;
 }
 
-#GlobalWrapper a:hover {
-background: #33CCFF;
-box-shadow:  0 0 1px 1px #33CCFF;
-color: #000;
-border-color: inherit;
-}
+
 #GlobalWrapper2 {
   opacity: 0.55; 
   margin:auto; 
@@ -34,7 +29,7 @@ border-color: inherit;
   }
   
   #GlobalWrapper2 a:hover {
-  background: #33CCFF;
+  background: #10df33;
   box-shadow:  0 0 1px 1px #33CCFF;
   color: #000;
   border-color: inherit;
@@ -46,12 +41,7 @@ border-color: inherit;
   text-align: center;
   }
   
-  #GlobalWrapper1 a:hover {
-  background: #33CCFF;
-  box-shadow:  0 0 1px 1px #33CCFF;
-  color: #000;
-  border-color: inherit;
-  }
+
 
 #bg {
   position: fixed; 
