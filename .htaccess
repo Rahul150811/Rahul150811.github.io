@@ -1,2 +1,2 @@
-DirectoryIndex intro.html
+DirectoryIndex intro.html index.html
 ErrorDocument 404 /error404.html
