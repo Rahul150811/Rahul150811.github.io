@@ -50,8 +50,9 @@
     
     text-decoration: none;
 }
-
-
+.nav-colored {
+  background-color:black;
+}
 /*---------------------- Navigation Button End ----------------*/
 
 /*---------------------- Home Section Starts ----------------*/
