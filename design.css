@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&family=Roboto+Mono:wght@100;400;600&display=swap");
+html{
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
 
 .homecolor{
     background-color: black;
@@ -36,6 +40,7 @@
   margin-right: 20px;
 
 }
+
 #nav_wrapper a{
   color: rgb(16, 233, 30);
   font-size: 20px;
@@ -43,7 +48,12 @@
   text-decoration: none;
 }
 #nav_wrapper li:hover{
-  text-decoration: underline white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(7, 161, 227);
+  border-left: 1px solid rgb(7, 161, 227);
+  border-right: 1px solid rgb(7, 161, 227);
+  border-width: 2px;
+  line-height: 48px;
 }
 
 #nav_wrapper a:hover {
