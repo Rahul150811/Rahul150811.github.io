@@ -26,6 +26,14 @@ html{
   margin: auto;
 }
 /*-----------------------Navigation Button Style -------------------------------------------*/
+#nav {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 #rc_logo {
   left: 30px;
   padding: 22px;
@@ -99,6 +107,7 @@ html{
    }
  
  }
+
 /*---------------------- Navigation Button End ----------------*/
 
 /*---------------------- Home Section Starts ----------------*/
