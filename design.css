@@ -756,7 +756,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(4, 223, 66, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   transform-style: preserve-3d;
@@ -764,7 +764,7 @@ html{
   background-color: #f5f6f7;
 }
 .platformcard.hackbox {
-  background-color: #141d2b;
+  background-color: black;
 }
 .platformcard.hackbox .hackbox-heading {
   color: #9fef00;
@@ -782,7 +782,7 @@ html{
 }
 
 .platformcard.tryhackme {
-  background-color: #161e2d;
+  background-color: black;
 }
 .platformcard.tryhackme .tryhackme-heading {
   color: #a6170e;
@@ -802,7 +802,7 @@ html{
 }
 
 .platformcard.portswigger {
-  background-color: #161e2d;
+  background-color: black;
 }
 .platformcard.portswigger .portswigger-heading {
   color: #e86507;
@@ -846,7 +846,7 @@ html{
 
 
 .name-container {
-  background-color: #1c2538;
+  background-color: black;
   margin-top: 200px;
   color: rgb(199, 199, 199);
   text-align: center;
