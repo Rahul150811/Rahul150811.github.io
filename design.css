@@ -729,6 +729,8 @@ html{
   color: #fff;
 }
 /*----------------- In Progress section end -------------*/
+
+/*----------------- Platform Section ---------------------*/
 .platform1 {
   width: 100%;
   height: 100%;
@@ -738,7 +740,7 @@ html{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #1c2538;
+  background-color: black;
 }
 .platform1 .platformcard {
   position: relative;
