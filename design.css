@@ -43,7 +43,7 @@ html{
  
  .rc_nav {
    overflow: hidden;
-   background-color: #0a0a0b;
+   background-color: black;
    text-align: center;
    z-index: 6;
  }
