@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hirahul.info/</loc>
+    <lastmod>2023-02-16T01:04:53+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.hirahul.info/index.html</loc>
+    <lastmod>	2023-02-16T01:04:53+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.hirahul.info/project.html</loc>
+    <lastmod>2023-02-16T01:04:53+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hirahul.info/resume.html</loc>
+    <lastmod>2023-02-16T01:04:53+00:00</lastmod>
+    <priority>1.0</priority>
+    <url>
+    <loc>https://www.hirahul.info/jan2023.pdf</loc>
+    <lastmod>	2023-02-16T01:04:53+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hirahul.info/inprogress-details.html</loc>
+    <lastmod>2023-02-16T01:04:53+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hirahul.info/404.html</loc>
+    <lastmod>2023-02-16T01:04:53+00:00</lastmod>
+    <priority>0.64</priority>
+</urlset>
