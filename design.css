@@ -552,13 +552,10 @@ html{
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
   position: relative;
-  margin-top: 50px;
-  margin-left: 13%;
-  min-width: 220px;
-  max-width: 410px;
-  max-height: 310px;
-  width: 100%;
   text-align: center;
+  margin: 60px auto;
+  width: 400px;
+  height: 300px;
 }
 
 .project img {
@@ -1046,5 +1043,5 @@ html{
 }
 
 
-/*------------ Footer ----------------*/
+
 
