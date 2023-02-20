@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;700&family=Roboto+Mono:wght@100;400;600&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 html{
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -329,24 +330,6 @@ html{
   font-size: 14px;
 }
 
-.media-body {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.font-weight-normal {
-  font-weight: 500 !important;
-}
-.w-25 {
-  width: 25% !important;
-}
-.text-muted {
-  color: #b2b2b2 !important;
-}
-.mr-1, .mx-1 {
-  margin-right: 0.625rem !important;
-}
 /*--------------------- About Section End ----------------*/
 
 /*---------------------- Contact Section ----------------------*/
@@ -565,28 +548,92 @@ html{
 }
 
 /*----------------- Project Page section -----------------*/
-
-.pro-body{
-  background:#080808;
-  margin-top:20px;
-  color: red;
-}
-.card {
-  border: none;
-  margin-bottom: 24px;
-  -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-  box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-}
-
-.avatar-xs {
-  height: 2.3rem;
-  width: 2.3rem;
+.project {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 13%;
+  min-width: 220px;
+  max-width: 410px;
+  max-height: 310px;
+  width: 100%;
+  text-align: center;
 }
 
-@media (max-width: 400px) {
-  h1 {
-      font-size: 1.5rem;
-  }
+.project img {
+  opacity: 1;
+  max-width: 100%;
+  border: 10px solid #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.project figcaption {
+  bottom: 0;
+  width: 60%;
+  right: 0;
+  position: absolute;
+  padding: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.project figcaption h3 {
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff;
+}
+.project figcaption a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.project figcaption p {
+  font-size: 0.9em;
+  font-weight: 500;
+  opacity: 0.65;
+  margin: 0;
+  color: #ffffff;
+}
+
+
+.project.box1 figcaption {
+  background: #07d01f;
+}
+.project.box1 img {
+  border: 10px solid #26e410;
+}
+
+.project.box2 figcaption {
+  background: #3f3d3d;
+}
+.project.box2 img {
+  border: 10px solid #f8f3f3;
+}
+
+.project.box3 figcaption {
+  background: #2a5422;
+}
+.project.box3 img {
+  border: 10px solid #03990a;
+}
+
+.project.box4 figcaption {
+  background: #a85913;
+}
+.project.box4 img {
+  border: 10px solid #a46c12;
+}
+
+.project:hover figcaption,
+.project.hover figcaption {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 15px -15px #000000;
 }
 
 .header {
@@ -746,7 +793,7 @@ html{
 .platform1 {
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  margin-top: 100px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -998,4 +1045,6 @@ html{
   background-color: rgb(14, 236, 88);
 }
 
+
+/*------------ Footer ----------------*/
 
