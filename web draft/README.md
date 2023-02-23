@@ -1,1 +1,0 @@
-Microcredential: Web Development Course [Winter 2023]
